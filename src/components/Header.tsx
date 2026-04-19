@@ -70,10 +70,10 @@ export default function Header() {
             {/* CTA */}
             <div className="hidden md:flex items-center gap-3">
               <Link
-                href="/app-demo"
+                href="/contact"
                 className="btn-premium px-5 py-2.5 text-sm"
               >
-                Try Demo
+                Get in Touch
               </Link>
             </div>
 
@@ -109,11 +109,11 @@ export default function Header() {
           </nav>
           <div className="mt-8">
             <Link
-              href="/app-demo"
+              href="/contact"
               onClick={() => setMenuOpen(false)}
               className="btn-premium block w-full text-center px-6 py-3.5 text-base"
             >
-              Try Demo
+              Get in Touch
             </Link>
           </div>
         </div>
